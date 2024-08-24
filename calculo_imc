@@ -1,0 +1,37 @@
+# Calculo de IMC - Indice de Massa Corporal
+
+'''
+Qual é a sua altura em cm:
+Qual é o seu peso em kg:
+
+menor que 18,5 magreza
+entre 18,5 e 24,9 normal
+entre 25,0 e 29,9 sobrepeso
+entre 30,0 e 39,9 obesidade
+maior que 40,0 obesidade grave
+'''
+
+altura = float(input('Qual é a sua altura? Ex: 1.70 '))
+peso = float(input('Qual o seu peso? '))
+
+imc = peso / (altura ** 2)
+
+# .2f para deixar o resultado somente com 2 casas decimais
+
+if imc < 18.5:
+    print(f'Seu IMC é {imc:.2f} = Magreza')
+
+elif imc >= 18.5 and imc < 24.9:
+    print(f'Seu IMC é {imc:.2f} = Normal')
+
+elif imc >= 25 and imc < 29.9:
+    print(f'Seu IMC é {imc:.2f} = Sobrepeso')
+
+elif imc >= 30 and imc < 39.9:
+    print(f'Seu IMC é {imc:.2f} = Obesidade')
+
+elif imc > 40:
+    print(f'Seu IMC é {imc:.2f} = Obesidade grave')
+
+else:
+    print('Digite um valor válido')
