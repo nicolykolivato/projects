@@ -1,0 +1,5 @@
+# Variável da Lista
+
+frutas = ['maçã', 'banan', 'manga', 'uva']
+
+print(frutas)
