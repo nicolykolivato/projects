@@ -1,0 +1,7 @@
+# range
+
+for numeros in range(1,11,1):
+# primeiro número (start) é opcional, se não colocar nada vai começar com 0;
+# o segundo número (stop) é obrigatório, pois é onde o código vai parar;
+# o último (step) é opcional, indica de quanto em quanto deve rodar;
+    print(numeros)
