@@ -1,0 +1,5 @@
+# for loop com lista
+frutas = ['maçã', 'banana', 'manga', 'uva']
+
+for i in frutas:
+    print(f'Eu gosto de {i}')
