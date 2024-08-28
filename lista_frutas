@@ -1,5 +1,20 @@
 # Variável da Lista
+frutas = ['maçã', 'banana', 'manga', 'uva']
 
-frutas = ['maçã', 'banan', 'manga', 'uva']
+# Alterações na Lista
 
+# acessar a lista de frutas no Index 1
+frutas[1] = 'morango'
+frutas.append('abacaxi')
+# print com Alterações1
 print(frutas)
+
+# novas Alterações
+frutas.remove('manga')
+del frutas[-1]
+# print com alterações2
+print(frutas)
+
+# Print do Index
+print(frutas[0])
+print(frutas[-1])
