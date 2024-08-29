@@ -1,0 +1,8 @@
+# Loop aninhado 
+
+frutas = ['melancia', 'uva', 'banana']
+vegetais = ['batata', 'quiabo', 'cebola']
+
+for fruta in frutas:
+    for vegetal in vegetais:
+        print(fruta, vegetal)
