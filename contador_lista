@@ -1,0 +1,13 @@
+# Lista de frutas
+frutas = ["maçã", "banana", "maçã", "laranja", "maçã", "uva"]
+
+# Inicializa o contador de maçãs
+contador_macas = 0
+
+# Loop para contar as maçãs
+for fruta in frutas:
+    if fruta == "maçã":
+        contador_macas += 1
+
+# Exibe a quantidade de maçãs
+print(f'Quantidade de maçãs:{contador_macas}')
