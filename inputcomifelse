@@ -1,0 +1,8 @@
+# Criar input
+
+valor = int(input('Por favor digite um número'))
+
+if valor > 10:
+    print('O valor é maior que 10')
+else:
+    print('O número é menor ou igual a 10')
