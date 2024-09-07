@@ -1,0 +1,9 @@
+# loop até acertar a fruta
+
+while True:
+    nomefruta = input('Por favor digite o nome de uma fruta:')
+# .lower transforma tudo em letra minuscula 
+    if nomefruta.lower() == 'abacate':
+        break
+
+print('Parabéns, você acertou a fruta!')
