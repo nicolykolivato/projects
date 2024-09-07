@@ -1,0 +1,13 @@
+# Loja de carros
+
+# Lista de carros
+carros = ['BMW X6', 'BMW i5', 'BMW i8']
+
+# Input do carro desejado
+carro_desejado = input('Digite o carro desejado: ')
+
+# Condição para validar a disponibilidade
+if carro_desejado in carros:
+    print('Este carro está disponível')
+else:
+    print('Desculpe, este carro não está disponível')
