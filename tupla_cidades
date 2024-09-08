@@ -1,0 +1,12 @@
+cidades = ('são paulo', 'rio de janeiro', 'salvador')
+
+nome_cidade = input('Digite o nome de uma cidade: ')
+
+if nome_cidade in cidades:
+    print('A cidade está na lista de cidades.')
+else:
+    print('A cidade não está na lista.')
+    # TODO: write code...
+    
+print(type(cidades))
+
