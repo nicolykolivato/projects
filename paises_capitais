@@ -1,0 +1,17 @@
+# país e capital - dicionário
+
+paises = {
+    'brasil': 'brasília',
+    'frança': 'paris',
+    'holanda': 'amsterdã',
+    'itália': 'roma',
+    'bélgica': 'bruxelas'
+}
+
+usuario_pais = input('Por favor, digite o nome de um país: ')
+
+if usuario_pais in paises: 
+    # o [] dentro do {paises} é para fazer o link com o que o usuário digitou
+    print(f'A capital de {usuario_pais} é {paises[usuario_pais]}')
+else:
+    print('Desculpe, esse país não está em nossa lista.')
