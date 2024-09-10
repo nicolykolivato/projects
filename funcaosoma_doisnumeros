@@ -1,0 +1,21 @@
+# função com soma
+
+num1 = int(input('Por favor digite um número: '))
+num2 = int(input('Por favor digite outro número: '))
+
+def soma():
+    resultado = num1 + num2
+    print(f'O valor da soma entre {num1} e {num2} é {resultado}')
+    
+soma()
+
+# ou
+'''
+def soma(num1, num2):
+    return num1 + num2
+
+user_num1 = int(input('Por favor digite um número: '))
+user_num2 = int(input('Por favor digite outro número: '))
+
+print(f'O valor da soma é {soma(user_num1, user_num2)}')
+'''
