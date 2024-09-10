@@ -1,0 +1,17 @@
+# calculo com **
+
+# função para definir o cálculo
+def calc(base, expo):
+    return base ** expo
+  
+#input do usuário
+user_base = int(input('Digite um valor base: '))
+user_expo = input('Digite um valor para o expoente: ')
+
+#condições
+if not user_expo:
+    user_expo = 2
+else: 
+    user_expo = int(user_expo)
+
+print(f'O valor do cálculo é: {calc(user_base, user_expo)}')
