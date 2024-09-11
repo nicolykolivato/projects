@@ -1,0 +1,6 @@
+# função com lambda
+
+cubo = lambda x: x ** 3
+
+valor = int(input('Digite um número: '))
+print(f'O cubo de {valor} é {cubo(valor)}')
