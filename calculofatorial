@@ -1,0 +1,11 @@
+# Cálculo Fatorial 
+
+def fatorial(numero):
+    if numero == 1 or numero == 1:
+        return 1
+    else:
+        return numero * fatorial(numero-1)
+        
+user_numero = int(input('Digite um número: '))
+
+print(f'O fatorial de {user_numero} é {fatorial(user_numero)}')
