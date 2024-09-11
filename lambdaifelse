@@ -1,0 +1,9 @@
+# lambda com if else
+
+valor = lambda x: 'Par 'if x % 2 == 0 else 'Ímpar'
+
+user_number = int(input('Digite um número: '))
+print(f'O {user_number} é {valor(user_number)}')
+
+
+
